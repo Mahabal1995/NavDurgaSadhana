@@ -3733,3 +3733,35 @@ p {
   font-style: normal;
   font-display: swap;
 }
+
+.accordion {
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  background-color: #51301d;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-item:hover {
+  background-color: #51301d;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.arrow-two {
+  float: left;
+  transition: transform 0.3s ease;
+}
+
+.active .arrow-two {
+  transform: rotate(180deg);
+}
