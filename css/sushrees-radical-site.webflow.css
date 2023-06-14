@@ -32,7 +32,7 @@
 
 .w-checkbox-input--inputType-custom.w--redirected-checked {
   background-color: #3898ec;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -987,7 +987,7 @@
 }
 
 .w-commerce-commercecheckoutsummarytextspacingondiv {
-  margin-right: .33em;
+  margin-right: 0.33em;
 }
 
 .w-commerce-commercecheckoutshippingsummarywrapper,
@@ -1026,7 +1026,6 @@
 }
 
 @media screen and (max-width: 479px) {
-
   .w-commerce-commercecheckoutemailinput,
   .w-commerce-commercecheckoutshippingfullname,
   .w-commerce-commercecheckoutshippingstreetaddress,
@@ -1059,7 +1058,7 @@
 }
 
 body {
-  color: rgba(12, 21, 47, .6);
+  color: rgba(12, 21, 47, 0.6);
   font-family: Lato, sans-serif;
   font-size: 14px;
   line-height: 20px;
@@ -1111,7 +1110,7 @@ p {
   font-weight: 400;
   line-height: 26px;
   text-decoration: none;
-  transition: color .4s;
+  transition: color 0.4s;
 }
 
 .item-tittle:hover {
@@ -1126,7 +1125,7 @@ p {
   height: 100vh;
   color: rgba(0, 0, 0, 0);
   background-color: #ac1313;
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   align-items: center;
@@ -1136,7 +1135,8 @@ p {
 
 .hero-section.about-us {
   height: auto;
-  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)), url('../images/Untitled-14.jpg');
+  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)),
+    url("../images/Untitled-14.jpg");
   background-position: 0 0, 50% 67%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1151,14 +1151,16 @@ p {
 }
 
 .hero-section.about-us.shop {
-  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)), url('../images/Untitled-3-3.jpg');
+  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)),
+    url("../images/Untitled-3-3.jpg");
   background-position: 0 0, 50% 59%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .hero-section.about-us.plates {
-  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)), url('../images/Untitled-1-7.jpg');
+  background-image: linear-gradient(to right, #f8f6f4 30%, rgba(0, 0, 0, 0)),
+    url("../images/Untitled-1-7.jpg");
   background-position: 0 0, 0 0;
   background-size: auto, cover;
 }
@@ -1193,7 +1195,7 @@ p {
 
 .heading {
   text-align: center;
-  background-image: url('../images/LogoBlack.png');
+  background-image: url("../images/LogoBlack.png");
   background-position: 0 0;
   background-size: auto;
   margin-top: 0;
@@ -1240,7 +1242,7 @@ p {
 
 .section.collections {
   background-color: #fff;
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   border: 1px solid #51301d;
@@ -1250,8 +1252,8 @@ p {
 
 .section.footer-section {
   color: rgba(0, 0, 0, 0);
-  background-color: rgba(219, 219, 219, .1);
-  background-image: url('../images/TEXTURE.png');
+  background-color: rgba(219, 219, 219, 0.1);
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   padding-bottom: 0;
@@ -1274,7 +1276,13 @@ p {
 }
 
 .section.cta {
-  background-image: linear-gradient(to right, #401d17, #51301d 28%, rgba(255, 255, 255, 0) 81%), url('../images/TEXTURE.png');
+  background-image: linear-gradient(
+      to right,
+      #401d17,
+      #51301d 28%,
+      rgba(255, 255, 255, 0) 81%
+    ),
+    url("../images/TEXTURE.png");
   background-position: 0 0, 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, contain;
@@ -1282,7 +1290,7 @@ p {
 
 .section.sale-section {
   color: rgba(0, 0, 0, 0);
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   border: 1px solid #51301d;
@@ -1295,7 +1303,7 @@ p {
 }
 
 .section.collection {
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   padding-top: 60px;
@@ -1314,7 +1322,7 @@ p {
 .brand.w--current {
   width: 190px;
   float: left;
-  background-image: url('../images/LogoBlack.png');
+  background-image: url("../images/LogoBlack.png");
   background-position: 0 0;
   background-size: auto;
   margin-top: -4px;
@@ -1374,7 +1382,7 @@ p {
   position: absolute;
   top: 50%;
   left: 0%;
-  transform: rotate(-90deg)translate(0, -50%);
+  transform: rotate(-90deg) translate(0, -50%);
 }
 
 .vertical-category.right {
@@ -1459,8 +1467,8 @@ p {
   height: 45px;
   /* float: left; */
   color: #6c6c6c;
-  background-color: rgba(219, 219, 219, .1);
-  background-image: url('../images/icons8-secured-letter-64_1icons8-secured-letter-64.png');
+  background-color: rgba(219, 219, 219, 0.1);
+  background-image: url("../images/icons8-secured-letter-64_1icons8-secured-letter-64.png");
   background-position: 9px 57%;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -1492,7 +1500,7 @@ p {
   padding-right: 35px;
   font-family: Hindguntur Regular, sans-serif;
   font-size: 22px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .subscribe-button:hover {
@@ -1519,7 +1527,7 @@ p {
   width: 80px;
   height: 80px;
   background-color: #51301d;
-  background-image: url('../images/icons8-paper-plane-64_1icons8-paper-plane-64.png');
+  background-image: url("../images/icons8-paper-plane-64_1icons8-paper-plane-64.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 38px;
@@ -1542,13 +1550,13 @@ p {
 .links-category {
   color: #999;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../images/Devi-1.png');
+  background-image: url("../images/Devi-1.png");
   background-position: 0 0;
   background-size: auto;
   justify-content: center;
   font-size: 16px;
   text-decoration: none;
-  transition: background-color .4s;
+  transition: background-color 0.4s;
   display: flex;
 }
 
@@ -1585,7 +1593,7 @@ p {
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button:hover {
@@ -1607,7 +1615,7 @@ p {
   mix-blend-mode: normal;
   background-color: #fc9a00;
   background-clip: border-box;
-  border: 0 rgba(81, 48, 29, .03);
+  border: 0 rgba(81, 48, 29, 0.03);
   border-radius: 40px;
   outline: 3px #e148c0;
   margin-right: 0;
@@ -1654,7 +1662,7 @@ p {
   width: 100%;
   height: 700px;
   text-align: center;
-  background-image: url('../images/oriento-663905-unsplash.jpg');
+  background-image: url("../images/oriento-663905-unsplash.jpg");
   background-position: 50%;
   background-size: cover;
   margin-left: auto;
@@ -1673,11 +1681,11 @@ p {
 }
 
 .link-category {
-  color: rgba(12, 21, 47, .6);
+  color: rgba(12, 21, 47, 0.6);
   margin-left: 5px;
   font-size: 15px;
   text-decoration: none;
-  transition: color .4s;
+  transition: color 0.4s;
 }
 
 .link-category:hover {
@@ -1710,7 +1718,7 @@ p {
 }
 
 .tittle {
-  color: rgba(12, 21, 47, .6);
+  color: rgba(12, 21, 47, 0.6);
   margin-top: 20px;
   font-size: 21px;
   font-weight: 400;
@@ -1764,11 +1772,11 @@ p {
   height: 240px;
   -webkit-text-fill-color: inherit;
   background-color: #ebb96a;
-  background-image: url('../images/Devi-1.png');
+  background-image: url("../images/Devi-1.png");
   background-position: 0 0;
   background-size: auto;
   background-clip: border-box;
-  border: 30px solid rgba(0, 0, 0, .05);
+  border: 30px solid rgba(0, 0, 0, 0.05);
   border-radius: 240px;
   flex-flow: column;
   justify-content: center;
@@ -1777,12 +1785,12 @@ p {
   margin-right: 40px;
   padding-top: 30px;
   text-decoration: none;
-  transition: box-shadow .5s;
+  transition: box-shadow 0.5s;
   display: flex;
 }
 
 .tab-block:hover {
-  box-shadow: 0 10px 15px rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .section-tittle {
@@ -1828,7 +1836,7 @@ p {
   margin-left: 2px;
   margin-right: 2px;
   text-decoration: none;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .link-2:hover {
@@ -1844,7 +1852,7 @@ p {
 }
 
 .sub-footer {
-  background-color: rgba(219, 219, 219, .1);
+  background-color: rgba(219, 219, 219, 0.1);
   border: 1px solid #51301d;
   margin-top: 80px;
   padding-top: 30px;
@@ -1900,9 +1908,9 @@ p {
 .social-wrapper-div {
   width: 32px;
   height: 32px;
-  opacity: .6;
+  opacity: 0.6;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url('../images/facebook-logo-Black.svg');
+  background-image: url("../images/facebook-logo-Black.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: 16px;
@@ -1910,7 +1918,7 @@ p {
   border-radius: 0;
   margin-left: 3px;
   margin-right: 3px;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .social-wrapper-div:hover {
@@ -1920,7 +1928,7 @@ p {
 }
 
 .social-wrapper-div.twitter {
-  background-image: url('../images/twitter-logo-silhouette-black.svg');
+  background-image: url("../images/twitter-logo-silhouette-black.svg");
   background-size: 16px;
 }
 
@@ -1929,8 +1937,8 @@ p {
 }
 
 .social-wrapper-div.google {
-  opacity: .52;
-  background-image: url('../images/google-plus-Black.svg');
+  opacity: 0.52;
+  background-image: url("../images/google-plus-Black.svg");
   background-size: 16px;
 }
 
@@ -1968,7 +1976,7 @@ p {
 }
 
 .body {
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
   font-family: Libre Franklin, sans-serif;
@@ -1998,7 +2006,7 @@ p {
 .color-block {
   width: 500px;
   height: 220px;
-  background-color: rgba(245, 245, 245, .05);
+  background-color: rgba(245, 245, 245, 0.05);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -2052,7 +2060,7 @@ p {
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 .button-link:hover {
@@ -2152,7 +2160,7 @@ p {
 .image-team-div {
   width: 90px;
   height: 90px;
-  background-image: url('../images/matheus-ferrero-216385-1-p-1600.jpeg');
+  background-image: url("../images/matheus-ferrero-216385-1-p-1600.jpeg");
   background-position: 50%;
   background-size: cover;
   border-radius: 100px;
@@ -2163,11 +2171,11 @@ p {
 }
 
 .image-team-div._2 {
-  background-image: url('../images/lucas-sankey-378674.jpg');
+  background-image: url("../images/lucas-sankey-378674.jpg");
 }
 
 .image-team-div._3 {
-  background-image: url('../images/erik-lucatero-310633.jpg');
+  background-image: url("../images/erik-lucatero-310633.jpg");
 }
 
 .icon-tittle {
@@ -2229,7 +2237,7 @@ p {
   align-items: center;
   padding: 12px 25px;
   text-decoration: none;
-  transition: background-color .4s;
+  transition: background-color 0.4s;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -2283,8 +2291,8 @@ p {
 .text-field-3.contact-form.gray {
   width: 94%;
   height: 45px;
-  background-color: rgba(219, 219, 219, .1);
-  background-image: url('../images/icons8-contacts-64_1icons8-contacts-64.png');
+  background-color: rgba(219, 219, 219, 0.1);
+  background-image: url("../images/icons8-contacts-64_1icons8-contacts-64.png");
   background-position: 7px 48%;
   background-repeat: no-repeat;
   background-size: 20px;
@@ -2310,8 +2318,8 @@ p {
 .contact-form.message.gray {
   width: 98%;
   min-height: 170px;
-  background-color: rgba(219, 219, 219, .1);
-  background-image: url('../images/icons8-edit-80_1icons8-edit-80.png');
+  background-color: rgba(219, 219, 219, 0.1);
+  background-image: url("../images/icons8-edit-80_1icons8-edit-80.png");
   background-position: 8px 8px;
   background-repeat: no-repeat;
   background-size: 23px;
@@ -2375,7 +2383,7 @@ p {
 .image-div {
   width: auto;
   height: 200px;
-  background-image: url('../images/alisher-sharip-117976-unsplash-p-3200.jpeg');
+  background-image: url("../images/alisher-sharip-117976-unsplash-p-3200.jpeg");
   background-position: 0 51%;
   background-size: cover;
   justify-content: center;
@@ -2432,19 +2440,19 @@ p {
   padding: 20px;
   display: flex;
   overflow: hidden;
-  box-shadow: 0 1px 2px rgba(46, 50, 60, .09);
+  box-shadow: 0 1px 2px rgba(46, 50, 60, 0.09);
 }
 
 .image-div-2 {
   width: 100px;
   height: 100px;
-  background-image: url('../images/36245.jpg');
+  background-image: url("../images/36245.jpg");
   background-position: 50%;
   background-size: cover;
 }
 
 .image-div-2.second {
-  background-image: url('../images/524.jpg');
+  background-image: url("../images/524.jpg");
 }
 
 .licence-links-wrapper {
@@ -2490,10 +2498,10 @@ p {
   height: auto;
   object-fit: contain;
   background-color: rgba(255, 255, 255, 0);
-  background-image: url('../images/TEXTURE.png');
+  background-image: url("../images/TEXTURE.png");
   background-position: 0 0;
   background-size: auto;
-  border-bottom: 1px solid rgba(255, 255, 255, .11);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.11);
   justify-content: center;
   align-items: center;
   padding: 0 20px;
@@ -2503,7 +2511,7 @@ p {
   bottom: auto;
   left: 0%;
   right: 0%;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, .05);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .container-3 {
@@ -2549,7 +2557,7 @@ p {
 
 .item-overlay {
   z-index: 2;
-  background-image: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
   justify-content: center;
   align-items: center;
   display: flex;
@@ -2569,7 +2577,7 @@ p {
 
 .list-item-2,
 .list-item-3 {
-  border-bottom: 1px solid rgba(220, 220, 220, .25);
+  border-bottom: 1px solid rgba(220, 220, 220, 0.25);
 }
 
 .error-state {
@@ -2634,7 +2642,7 @@ p {
 
 .image-4 {
   opacity: 1;
-  background-image: url('../images/Group-54.png');
+  background-image: url("../images/Group-54.png");
   background-position: 0 0;
   background-size: auto;
   margin-right: 5px;
@@ -2649,10 +2657,10 @@ p {
 }
 
 .cart-button {
-  opacity: .7;
+  opacity: 0.7;
   background-color: rgba(0, 0, 0, 0);
   border-left: 1px solid #ebebeb;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
 }
 
 .cart-button:hover {
@@ -2730,7 +2738,7 @@ p {
 }
 
 .block-header {
-  background-color: rgba(219, 219, 219, .1);
+  background-color: rgba(219, 219, 219, 0.1);
 }
 
 .text-block-2 {
@@ -2779,7 +2787,7 @@ p {
 
 .licence-item-first {
   width: 100%;
-  background-color: rgba(255, 142, 100, .3);
+  background-color: rgba(255, 142, 100, 0.3);
   border: 1px #dde1e7;
   border-radius: 6px;
   justify-content: center;
@@ -2840,7 +2848,6 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   margin-left: -35px;
-
 }
 
 /* .hero-image {
@@ -2860,7 +2867,7 @@ p {
   grid-row-gap: 16px;
   text-align: right;
   -webkit-text-fill-color: inherit;
-  background-image: url('../images/backrgound_devi_scroll.png');
+  background-image: url("../images/backrgound_devi_scroll.png");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2926,7 +2933,7 @@ p {
 .column-4 {
   object-fit: fill;
   object-position: 0% 50%;
-  background-image: url('../images/bea2eff3-a9bb-0910-40ce-0fcc24e56bfa.png');
+  background-image: url("../images/bea2eff3-a9bb-0910-40ce-0fcc24e56bfa.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2937,7 +2944,7 @@ p {
 
 .paragraph-3 {
   color: #51301d;
-  border: .5px solid #51301d;
+  border: 0.5px solid #51301d;
   border-radius: 50px;
   margin-bottom: 0;
   padding: 50px 15px;
@@ -2971,7 +2978,11 @@ p {
 @media screen and (max-width: 991px) {
   .hero-section {
     height: auto;
-    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url('../images/scott-webb-268893-unsplash.jpg');
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../images/scott-webb-268893-unsplash.jpg");
     background-position: 0 0, 0 0;
     background-repeat: repeat, repeat;
     background-size: auto, 2080px;
@@ -2983,8 +2994,9 @@ p {
 
   .hero-section.about-us {
     height: auto;
-    background-color: rgba(12, 21, 47, .6);
-    background-image: linear-gradient(to right, #f8f6f4 34%, rgba(0, 0, 0, 0)), url('../images/Untitled-3-3.jpg');
+    background-color: rgba(12, 21, 47, 0.6);
+    background-image: linear-gradient(to right, #f8f6f4 34%, rgba(0, 0, 0, 0)),
+      url("../images/Untitled-3-3.jpg");
     background-position: 0 0, 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -2993,7 +3005,12 @@ p {
 
   .hero-section.about-us.shop {
     background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(to right, #f8f6f4 31%, rgba(255, 255, 255, .55)), url('../images/Untitled-3-3.jpg');
+    background-image: linear-gradient(
+        to right,
+        #f8f6f4 31%,
+        rgba(255, 255, 255, 0.55)
+      ),
+      url("../images/Untitled-3-3.jpg");
     background-position: 0 0, 50% 59%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3263,7 +3280,11 @@ p {
 @media screen and (max-width: 767px) {
   .hero-section {
     height: auto;
-    background-image: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 255, 255, .3)), url('../images/scott-webb-268893-unsplash.jpg');
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../images/scott-webb-268893-unsplash.jpg");
     background-position: 0 0, 0 0;
     background-repeat: repeat, repeat;
     background-size: auto, 2080px;
@@ -3272,7 +3293,12 @@ p {
 
   .hero-section.about-us {
     height: auto;
-    background-image: linear-gradient(to right, #f8f6f4 24%, rgba(255, 255, 255, .75)), url('../images/Untitled-3-3.jpg');
+    background-image: linear-gradient(
+        to right,
+        #f8f6f4 24%,
+        rgba(255, 255, 255, 0.75)
+      ),
+      url("../images/Untitled-3-3.jpg");
     background-position: 0 0, 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3290,7 +3316,12 @@ p {
   }
 
   .section.cta {
-    background-image: linear-gradient(to right, #dbdbdb 44%, rgba(255, 255, 255, 0)), url('../images/raul-cacho-oses-779595-unsplash-p-3200.jpeg');
+    background-image: linear-gradient(
+        to right,
+        #dbdbdb 44%,
+        rgba(255, 255, 255, 0)
+      ),
+      url("../images/raul-cacho-oses-779595-unsplash-p-3200.jpeg");
     background-position: 0 0, 50% 33%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3467,7 +3498,12 @@ p {
 
   .hero-section.about-us {
     height: auto;
-    background-image: linear-gradient(to right, #f8f6f4 46%, rgba(255, 255, 255, .75)), url('../images/Untitled-3-3.jpg');
+    background-image: linear-gradient(
+        to right,
+        #f8f6f4 46%,
+        rgba(255, 255, 255, 0.75)
+      ),
+      url("../images/Untitled-3-3.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -3540,7 +3576,7 @@ p {
   }
 
   .body {
-    background-color: rgba(255, 255, 255, .01);
+    background-color: rgba(255, 255, 255, 0.01);
   }
 
   .cta-button-block {
@@ -3683,7 +3719,7 @@ p {
     background-size: 300px;
   } */
 
-  .hero-image-div{
+  .hero-image-div {
     margin-right: 100px;
   }
 
@@ -3695,7 +3731,6 @@ p {
   /* height: 310px;
   background-size: 336px 334px;
   min-width: 307px; */
-
 }
 
 #w-node-_05f41280-1106-df1d-18e5-952718e972eb-3d639896,
@@ -3709,26 +3744,25 @@ p {
   grid-area: 1 / 2 / 2 / 3;
 }
 
-
 @font-face {
-  font-family: 'Linbiolinum R G';
-  src: url('../fonts/LINBIOLINUM_R_G.TTF') format('truetype');
+  font-family: "Linbiolinum R G";
+  src: url("../fonts/LINBIOLINUM_R_G.TTF") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Hindguntur Light';
-  src: url('../fonts/HindGuntur-Light.ttf') format('truetype');
+  font-family: "Hindguntur Light";
+  src: url("../fonts/HindGuntur-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Hindguntur Regular';
-  src: url('../fonts/HindGuntur-Regular.ttf') format('truetype');
+  font-family: "Hindguntur Regular";
+  src: url("../fonts/HindGuntur-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -3738,6 +3772,10 @@ p {
   border: 1px solid #ddd;
   margin-bottom: 12px;
   overflow: hidden;
+  font-family: Hindguntur Regular, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
 }
 
 .accordion-item {
